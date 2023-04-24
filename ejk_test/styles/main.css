@@ -1,0 +1,335 @@
+body {
+  width: 100%;
+  margin: auto;
+  font-family: 'Inter',Helvetica,sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* OPENING VIDEO CSS START */
+
+.hero {
+  color: white;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.hero .overlay {
+
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.hero img, .hero video {
+  height: auto;
+  width: 100%;
+}
+.hero .hero-video {
+  margin: 0;
+  width: 100%;
+}
+.hero .hero-content {
+  left: 50%;
+  margin: auto;
+  max-width: 38em;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.ejk_title {
+  position: relative;
+  height: auto;
+  padding-bottom: 1.44rem;
+}
+
+.ejk_title h1 {
+  font-family: "Tiempos Headline", "Georgia Adjusted", Georgia, serif;
+  font-size: 5vw;
+  line-height: 1.44;
+  letter-spacing: 10px;
+  color: #eeece7;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px rgba(76, 70, 50, 50);
+}
+
+
+.ejk_subtitle {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  color: #eeece7;  
+  font-family: "Graphik", system-ui, Roboto, "Segoe UI", Helvetica, Arial, Oxygen-Sans, Cantarell, Ubuntu, sans-serif;
+  font-size: 1rem;
+  line-height: 1.44;
+  
+}
+
+.byline {width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  padding-top: 1.44rem;
+  color: #eeece7;
+  display:block;
+  font-family: "Graphik", system-ui, Roboto, "Segoe UI", Helvetica, Arial, Oxygen-Sans, Cantarell, Ubuntu, sans-serif;
+  font-weight: 700;
+  line-height: 1.44;
+  
+}
+
+.byline a, .byline a:visited {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.timedate {
+    padding-top: 1.44rem;
+  width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  color: #eeece7;
+  display: block;
+  font-family: "Graphik", system-ui, Roboto, "Segoe UI", Helvetica, Arial, Oxygen-Sans, Cantarell, Ubuntu, sans-serif;
+  
+}
+
+
+/* OPENING VIDEO CSS ENDS */
+
+main {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+}
+article {
+  margin: auto;
+  
+}
+
+p {
+  font-family: "Georgia", sans-serif ;
+  max-width: 37rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.44rem;
+  line-height: 1.44;
+
+}
+
+
+/* TABLE CSS STARTS */
+
+table.dataTable td span.arrow-icon:before {
+  height: 1em;
+  width: 1em;
+  margin-top: 0px;
+  display: inline-block;
+  color: #000;
+  box-sizing: content-box;
+  text-align: center;
+  text-indent: 0 !important;
+  font-family: "Courier New",Courier,monospace;
+  line-height: 1em;
+  content: "›";
+
+
+  }
+  table.dataTable tr.dt-hasChild td span.arrow-icon:before {
+      transform: rotate(90deg);
+  }
+
+  table.dataTable th {
+      cursor: pointer;
+      font-family: 'Inter',Helvetica,sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+  }
+
+  table.dataTable thead th {
+      border-bottom: 1px solid #000;
+  }
+
+  table.dataTable thead th, table.dataTable thead td {
+      padding: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 1);
+  }
+  table.dataTable tbody tr {
+      cursor: pointer;
+  }
+
+
+  table.dataTable tbody tr {
+      border-bottom: 1px solid #909090;
+  }
+  table.dataTable tbody th,
+  table.dataTable tbody td {
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+  box-shadow:none !important;
+  }
+
+  table.dataTable td span.status {
+      height: 12px;
+      width: 12px;
+      background-color: #000;
+      position: relative;
+      display: inline-block;
+      border-radius: 50%;
+      margin: 0px 5px 0 0;
+  }
+  table.dataTable td span.single_c{
+      background:#DF7821;
+  }
+  table.dataTable td span.multiple_c{
+      background-color:#006FBA;
+  }
+  table.dataTable td span.type_c {
+      border-radius: 3px;
+      font-family: 'Inter',Helvetica,sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 17px;
+      padding: 2px 6px 2px 0px;
+      vertical-align: top;
+      margin-left:10px;
+  }
+  table.dataTable td span.type_c.gunshot{
+      background-color:#C1A3BC;
+  }
+
+
+
+  div.info-container{
+      padding: 10px 20px;
+  }
+  div.info-container p span { 
+      font-weight: 600; 
+  }
+  div.multiple_c{
+      background-color: #eff5fa;
+  }
+  div.single_c{
+      background-color: #fcf4ee;
+  }
+  .selectFilter {
+      background-color: #f4f4f4;
+      border-radius: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.5rem 1rem 0.75rem;
+      justify-content: space-between;
+  }
+
+  .optionsField {
+      margin: 0 1.25rem 0.5rem 0;
+      max-width: 285px;
+      width: 54%;
+  }
+
+  .table-search {
+      flex-grow: 1;
+      margin: 0 0 0.5rem;
+      width: 42%;
+  }
+  .optionsField label, .table-search label{
+      font-family: 'Inter',Helvetica,sans-serif;
+      font-weight: 600;
+      line-height: 30px;
+      margin: 0 5px 3px 0;
+      display: block;
+  }
+  .optionsField select {
+      border: 1px solid #3e3e3e;
+      border-radius: 5px;
+      padding: 6px;
+      width: 100%;
+  }
+  .table-search input{
+      border: 1px solid #3e3e3e;
+      border-radius: 3px;
+      font-family: 'Inter',Helvetica,sans-serif;
+      font-size: 15px;
+      height: 30px;
+      overflow: hidden;
+      padding: 6px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+  }
+  .indicators{
+      align-items: center;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+  }
+  .single-indicator{
+      display: flex;
+      margin: 0 1rem 3px 0;
+  }
+  .single-indicator .status {
+      height: 12px;
+      width: 12px;
+      background-color: #000;
+      position: relative;
+      display: inline-block;
+      border-radius: 50%;
+      margin: 3px 5px 0 0;
+  }
+  .status.multiple_c{
+      background-color: #006FBA;
+  }
+  .status.single_c{
+      background-color: #DF7821;
+  }
+  .single-indicator .type_c{
+      border-radius: 3px;
+      float: right;
+      font-family: 'Inter',Helvetica,sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      height: 17px;
+      line-height: 17px;
+      padding: 0 5px;
+      margin: 0px 5px 0 0;
+  }
+
+
+  
+  
+  .type_c.crossfire {
+      background-color: #f3750e;
+  }
+  .type_c.gunshot {
+      background-color: #C1A3BC;
+  }
+  .type_c.torture {
+      
+      background-color: #b1c097;
+  }
+  .type_c.torture::after {
+      
+      content: "TOR";
+  }
+  .type_c.gunshot::after {
+      
+      content: "GUN";
+  }
+  .type_c.crossfire::after {
+      
+      content: "CRS";
+  }
+
+
+  div#searchResults {
+      align-items: center;
+      display: flex;
+      margin: 0 0 0 auto;
+  }
+
+  /* TABLE CSS STARTS */
