@@ -1,42 +1,35 @@
 (function ($) {
-    $(document).ready(function () {
-      var table = $('#example').DataTable({
-        pageLength: 13, // or 14
-        lengthChange: false,
-  
-        select: true, // enable select extension
-        searching: true,
-        dom: 'lrtip', // Remove default search elements
-        // sorting: false,
-        language: {
-          info: '',
-        },
-        ajax: 'data.json',
-        columns: [
-          { data: 'supplier' },
-          { data: 'dept' },
-          { data: 'start_date' },
-          { data: 'amount' },
-        ],
-        columnDefs: [
-          { targets: [2], orderable: true },
-          { targets: '_all', orderable: false },
-          {
-            targets: 0,
-            render: function (data, type, row, meta) {
-              // console.log(row);
-              return (
-                '<span class="arrow-icon"></span><span class="status ' +
-                row.status +
-                '"></span>' +
-                row.supplier +
-                '<span class="npo ' +
-                row.non_profit_status +
-                '">NPO</span>'
-              );
+    
+
+    $(document).ready(function () { 
+        var table = $('#example').DataTable({
+             "pageLength": 13, // or 14
+            "lengthChange": false,
+            select: true, // enable select extension
+            searching: true,
+            dom: 'lrtip', // Remove default search elements
+            language: {
+                info: ''
             },
-          },
-        ],
+            ajax: 'data.json',
+            columns: [
+                
+                { data: 'name' },
+                { data: 'agency' },
+                { data: 'location' },
+                { data: 'date' },
+            ],
+            columnDefs: [
+                { targets: [2], orderable: true },
+        { targets: '_all', orderable: false },
+                {
+                targets: 0,
+                    render: function (data, type, row, meta) {
+                        // console.log(row);
+                    return '<span class="arrow-icon"></span><span class="status '+row.status+'"></span>'+row.name+'<span class="type_c '+row.type+' ">    </span>'
+                }
+                }
+            ],
             drawCallback: function(settings) {
                 var api = this.api();
                 var pageInfo = api.page.info();
