@@ -29,7 +29,7 @@ $(document).scroll(function(){
                 { data: 'date' },
             ],
             columnDefs: [
-                { targets: [4], orderable: true },
+                { targets: [2], orderable: true },
         { targets: '_all', orderable: false },
                 {
                 targets: 0,
