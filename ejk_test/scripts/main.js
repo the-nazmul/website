@@ -96,5 +96,3 @@ function format (data) {
         </div>`
     );
 }
-
-// TABLE //
