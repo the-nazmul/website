@@ -3,28 +3,30 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Assignment 5</title>
-  <meta name="description" content="A page for students to practice creating html and css from scratch.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Body Count: Extrajudicial Executions in Bangladesh</title>
+  <meta name="description"
+    content="An in-depth data analysis and investigation into the deaths caused by security forces in Bangladesh.">
+  <meta name="keywords" content="Bangladesh, Extrajudicial Executions, Elections, Police, RAB, Netra News">
+  <meta name="author" content="Nazmul Ahasan">
+
+  <meta property="og:title" content="Body Count: Extrajudicial Executions in Bangladesh">
+  <meta property="og:description"
+    content="An in-depth data analysis and investigation into the deaths caused by security forces in Bangladesh.">
+
+
+
 
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/xgx5nwm.css">
-  <link rel="stylesheet" href="https://use.typekit.net/xgx5nwm.css">
-  <link rel="stylesheet" href="https://use.typekit.net/xgx5nwm.css">
   <link rel="stylesheet" href="./styles/jquery.dataTables.min.css">
-
-  <script src="./scripts/scrollama.min.js"></script>
-  <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
-
-
-
-
+  <script defer src="./scripts/jquery-3.5.1.min.js"></script>
+  <script defer src="./scripts/jquery.dataTables.min.js"></script>
+  <script defer src="./scripts/main.js"></script>
 
 
 
@@ -41,8 +43,7 @@
       <div class="nav-center">
         <a href="https://netra.news" target="_blank">
           <div>
-            <img class="nav-logo" alt="Logo"
-              src="./assets/logo.png">
+            <img class="nav-logo" alt="Netra News Logo" src="./assets/logo.png">
           </div>
         </a>
       </div>
@@ -61,19 +62,15 @@
   <main>
 
     <div class="hero">
-      <figure class="hero-video clearfix">
-        <video autoplay="autoplay" muted="muted" preload="auto" poster="">
+      <figure class="hero-video">
+        <video autoplay="autoplay" muted="muted" preload="auto">
           <source src="./assets/opener.mp4" type="video/mp4">
           <p>Sorry, your browser does not support the HTML5 video tag.</p>
         </video>
       </figure>
-      <div class="overlay"></div>
       <div class="hero-content">
-
         <div class="ejk_title">
-
           <h1>Body Count</h1>
-
         </div>
 
         <svg class="svg_line" xmlns="http://www.w3.org/2000/svg" viewBox="-100 100 500 100">
@@ -101,201 +98,181 @@
 
         <div class="ejk_meta">
           <h2 class="ejk_subtitle">Extrajudicial Executions in Bangladesh</h2>
-          <span class="byline"><a class="name" href="https://netra.news/authors/nazmul-ahasan/">Nazmul Ahasan</a>
-            <time class="timedate"><time class="timestamp" datetime="2023-05-03EST05:00">May 3, 2023</time>
-            </time>
+          <span class="byline"><a class="name" href="https://netra.news/authors/nazmul-ahasan/">Nazmul Ahasan</a></span>
+          <time datetime="2023-05-13">May 13, 2023</time>
         </div>
-
 
       </div>
 
 
     </div>
 
-    <article>
 
-      <p>On the afternoon of Jan. 16, 2015, Nuruzzaman Jony called his 7-month-pregnant wife from an unknown phone
-        number. He was in hiding, alarmed by a surge in arrests of fellow activists of the opposition Bangladesh
-        Nationalist Party (BNP). </p>
 
-      <p>“We’ll go to the doctor together later today,” he promised, as he tried to compensate for two nights of absence
-        at her side. “But let me go see Hira first.”</p>
+    <article class="mainarticle">
 
+
+      <p>On the afternoon of Jan. 16, 2015, Nuruzzaman Jony called his 7-month-pregnant wife to check in on her. He had
+        been hiding as police crackdown on the opposition Bangladesh Nationalist Party (BNP) surged.</p>
+      <p>“We’ll go to the doctor together later today,” he promised his wife, as he tried to compensate for two nights
+        of absence at her side. “But let me go see Hira first.”</p>
       <p>Moniruzzaman Hira, his younger brother who had just returned home from a 40-day religious retreat, was picked
-        up and framed in a theft case by the police. A top activist of the BNP’s student wing in a key neighborhood in
-        Dhaka, Jony knew that detaining his apolitical brother was just a way of punishing him for his activism. </p>
+        up and framed in a theft case by the police. A top activist of the BNP, Jony knew that the police detained his
+        apolitical brother to punish him.</p>
+      <p>By late afternoon, Jony called his wife, Munia Parveen, and said he had met Hira at the prison and was ready to
+        go to the doctor. That would be the last time Parveen heard from him. The next morning, Parveen would discover
+        his body at the morgue of the Dhaka Medical Hospital. A police press release claimed Jonny was killed during a
+        “gunfight” and that he had admitted to bombing a police outpost, a charge his family says was fabricated.</p>
+      <p>At the morgue, Parveen counted the number of gunshot wounds Jony’s body sustained: 18, in total, with all but
+        two in the chest. “That was a cold-blooded murder,” she said in a recent interview.</p>
+      <p>Jony’s was but only one among more than 2,500 deaths caused by security forces in Bangladesh between 2009 and
+        2021, according to a Netra News analysis of data gathered by rights groups over 13 years.</p>
+      <p>The analysis found that a vast majority of the killings, according to family members and press reports, appear
+        deliberate and targeted — often meted out after security forces had the victims under their custody. The number
+        of killings sharply increased during, before, and after the national elections held in 2014 and 2018, which were
+        widely condemned as unfair and fraudulent. The location-wise data also revealed the widespread targeting of the
+        Rohingya refugees during a Philippines-style “war on drugs.”</p>
 
-      <p>Heightened police activities around that time stemmed from a fresh round of protests by the BNP on the first
-        anniversary of the 2014 elections that most opposition parties had boycotted. Hira was in prison awaiting trial
-        — no longer in police custody — thus safe to meet.</p>
-
-      <p>By late afternoon, Jony called his wife, Munia Parveen, to say he had checked in on Hira and was about to join
-        her so they both could see the doctor. That would be the last time Parveen heard from him. </p>
-
-      <p>It would only be after the next morning that she realized Jony had been killed during an alleged late-night
-        gunfight between police detectives and her husband’s associates at the heart of the capital city. Before he was
-        killed, according to a presser by police, Jonny had admitted to causing an explosion targeting a police outpost
-        two days earlier, a charge his family maintains was made-up.</p>
-
-      <p>At the morgue in Dhaka Medical College Hospital, Parveen was able to count the number of gunshot wounds Jony’s
-        body sustained: 18, in total, with all but two in the chest. “That was a cold-blooded murder,” she said in a
-        recent interview.</p>
-
-      <p>Jony’s killing was one among more than 2,500 killings carried out by security forces in Bangladesh between 2009
-        and 2021, according to a Netra News analysis of data gathered by a rights group over a period of 13 years. A
-        vast majority of the killings, according to family members, press reports, and rights groups, appear deliberate
-        and targeted — often meted out after security forces had the victims under their custody, the analysis shows.
-        The analysis also revealed clear upward trends of such killings during, before, and after the national
-        elections, held in 2014 and 2018, which were widely attributed as unfair and fraudulent, and unearthed
-        widespread targeting of Rohingya refugees.</p>
-
-<aside class="grids">
-        <div class="peopleyeartitle">The spike in 2013</div>
-        <div class="peopleyeardescription">
-          In 2013, when opposition parties waged a protest against the repeal of the caretaker government system, with Jamaat-e-Islami supporters pursuing a desperate to undo the war crimes tribunal, the security forces responded with lethal use of force, killing as many as <b style="background:#de2d26; padding:1px 4px">173</b> people linked to the opposition parties. In contrast, only <b style="background:black; color:gray; padding:1px 4px">SIX</b> people had died at the hands of security forces in the four preceding years combined.
-
-          </div>
-          <div class="gridpeople">
-          <div class="gridrow">
-            <div class="leftmiddle year">2009-10</div>
-              <div class="leftmiddle year">2011-12</div>
-              <div class="right year">2013</div>
-          </div>
-          <div class="gridrow">
-            <div class="leftmiddle people">ABCDE</div>
-            <div class="leftmiddle people">A</div>
-            <div class="right people">ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQ</div>
-          </div>
-        </div>
-        </aside>
+      <figure class="gifs">
+        <img src="/assets/votess-gif-final.gif" alt="A GIF animation showing ballot box on the Bangladesh map">
+        <figcaption>National polls in 2014 and 2018 saw sharp spikes in killings by security forces. ILLUSTRATION:
+          SME/NETRA NEWS</figcaption>
+      </figure>
 
       <p>Since coming to power in 2009, the Bangladesh government led by Prime Minister Sheikh Hasina has increasingly
-        grown authoritarian: Bertelsmann Stiftung’s widely followed index puts Bangladesh as a “moderate autocracy.”
+        grown authoritarian: Bertelsmann Stiftung’s widely followed index put Bangladesh as a “moderate autocracy.”
         Global and domestic rights groups have long alleged that her government oversaw hundreds of extrajudicial
-        killings and enforced disappearance, especially targeting her political opponents. </p>
+        killings and enforced disappearance, especially targeting her political opponents.</p>
 
-      <p>The dataset compiled by the Asian Human Rights Commission, a Hong Kong-based regional rights organization, and
-        Odhikar, a domestic rights group, and prepared by Netra News comprises incidents of shootouts and other gunshot
-        wounds caused by security forces, as reported by local news sources, which were mostly based on the press
-        releases issued by the forces, and other deaths resulted from alleged custodial torture.</p>
-
-      <p>In addition to its analysis of the data, Netra News has decided to publish a refined and shortened version of
-        the dataset in full, as Bangladesh authorities routinely seek to discredit rights groups’ figures on
-        extrajudicial executions and enforced disappearance. </p>
-
-      <h2>Perpetrators</h2>
-
-      <p>As many as 1,674 casualties were recorded to have taken place in unique incidents. The remaining 919 lethal
-        casualties occurred in 358 multiple-casualty incidents, each of which witnessed more than one killing.</p>
-
-      <p>Based on the descriptions of the killings published in the press, Netra News categorized the killings into
-        premeditated or targeted killings of individuals in custody, deaths resulted from indiscriminate or justified
-        law enforcement response to protests or violence, deaths resulted from alleged torture of individuals known to
-        be in custody and other accidental deaths. </p>
+      <p>The Asian Human Rights Commission, a Hong Kong-based regional rights organization, compiled the dataset, while
+        a domestic rights group conducted field investigations. Based on press reports, which mostly cited press
+        releases of security forces, the dataset documented alleged incidents of targeted killings and deaths resulting
+        from gunshots fired by security forces as well as other casualties caused by alleged custodial torture.</p>
+      <p>The Bangladesh government routinely claims that the deaths were the result of legitimate use of force, but
+        domestic and international rights organizations have long criticized the practice and called for investigations.
+      </p>
+      <p>In 2021, the United States government imposed economic and other sanctions on the Rapid Action Battalion (RAB),
+        an elite police unit, over reports of its involvement with numerous extrajudicial killings.</p>
+      <p>In a recent investigation by Netra News and Deutsche Welle, the German public broadcaster, two RAB commanders
+        admitted to carrying out extrajudicial killings and implicated the highest levels of the Bangladesh government
+        in some of them.</p>
 
 
       <!-- iframe class="table" src="/data-tables/index.html"></-iframe> -->
-<div class ="table1">
-      <div class="selectFilter">
-        <div class="optionsField">
+      <aside class="table1">
+        <div class="selectFilter">
+          <div class="optionsField">
             <label for="filterSelect">Filter by agency:</label>
             <select id="filterSelect">
-                <option value="">All</option>
-                <option value="RAB">RAB</option>
-                <option value="Police">Police</option>
-                <option value="BGB">BGB</option>
-                <option value="Army">Army</option>
+              <option value="">All</option>
+              <option value="RAB">RAB</option>
+              <option value="Police">Police</option>
+              <option value="BGB">BGB</option>
+              <option value="Army">Army</option>
             </select>
-        </div>
-        <div class="table-search">
+          </div>
+          <div class="table-search">
             <label for="myTable_search">Search:</label>
             <input id="myTable_search" type="search" class="form-control form-control-sm"
-                placeholder="For example, “Torture”" aria-controls="myTable">
-        </div>
-        <div class="indicators">
+              placeholder="For example, 'Sylhet'" aria-controls="myTable">
+          </div>
+          <div class="indicators">
             <div class="single-indicator">
-                <span class="status single_c"></span>
-                <span>Single casualty</span>
+              <span class="status single_c"></span>
+              <span>Single casualty</span>
             </div>
             <div class="single-indicator">
-                <span class="status multiple_c"></span>
-                <span>Multiple casualties</span>
+              <span class="status multiple_c"></span>
+              <span>Multiple casualties</span>
             </div>
 
             <div class="single-indicator">
-                <span class="type_c crossfire"></span>
-                <span>Crossfire</span>
+              <span class="type_c crossfire"></span>
+              <span>Crossfire</span>
             </div>
             <div class="single-indicator">
-                <span class="type_c gunshot"></span>
-                <span>Gunshots</span>
+              <span class="type_c gunshot"></span>
+              <span>Gunshots</span>
             </div>
             <div class="single-indicator">
-                <span class="type_c torture"></span>
-                <span>Torture</span>
+              <span class="type_c torture"></span>
+              <span>Torture</span>
             </div>
             <div id="searchResults"></div>
+          </div>
         </div>
-    </div>
 
-    <table id="example" class="display" style="width:100%">
-        <thead>
+        <table id="example" class="display" style="width:100%">
+          <thead>
             <tr>
-                <th>Name</th>
-                <th>Agencies</th>
-                <th>Location</th>
-                <th>Date</th>
+              <th>Name</th>
+              <th>Agencies</th>
+              <th>Location</th>
+              <th>Date</th>
             </tr>
-        </thead>
+          </thead>
+        </table>
+        <div class="caption">The searchable database contains detailed data (i.e., names, dates, locations, description,
+          nature of death, and agency)
+          related to more than 2,500 people killed by security forces in Bangladesh from 2009 to 2020. Click on each row
+          to expand more details about the respective cases. CREDIT: AHRC/NETRA NEWS</div>
+      </aside>
 
-    </table>
-  </div>
-
-
-      <p>More than 80%, or 2,095, of the total number of 2593 killings documented in the dataset bear some hallmarks of
-        targeted murders i.e., carried out after the subjects were already in the custody of the respective security
+      <h2>Who are the perpetrators?</h2>
+      <p>Of all documented cases, as many as 1,674 casualties were recorded to have taken place in individual incidents.
+        The remaining 919 deaths occurred in 358 multiple-casualty incidents, where more than one person was killed.</p>
+      <p>With a few probable exceptions, all victims appear to be men. The researchers were able to document the age of
+        about 2,000 of the victims, 55% of whom are aged between 30 and 45.</p>
+      <p>Based on the descriptions of the killings as reported in the press, Netra News categorized them into
+        premeditated or targeted killings of individuals known to be in custody, deaths resulting from excessive or
+        justified law enforcement response to protests or violence, deaths resulting from alleged torture of individuals
+        in custody, and other seemingly accidental deaths.</p>
+      <p>More than 80% — or, 2,095 — of the total 2593 killings documented in the dataset bear some hallmarks of
+        targeted murders, i.e., carried out after the individuals were already in the custody of the respective security
         forces. Of the total number, 195 are allegedly torture-related casualties.</p>
+      <p>The analysis also revealed unusual findings about the perpetrators of the killings.</p>
+      <p>In recent years, the Rapid Action Battalion (RAB), which is a police unit but effectively controlled by
+        deputized military officers, has come under intense scrutiny for its alleged role in extrajudicial
+        executions.</p>
+      <p>Since its founding as a crime-busting agency in 2004, extrajudicial killings in Bangladesh have almost been
+        synonymous with the RAB, as the agency engaged in deliberate lethal actions to eliminate its targets in the
+        guise of “gunfights” or “crossfire.”</p>
+      <p>However, the analysis reveals that non-RAB units within Bangladesh Police were collectively responsible for
+        most extrajudicial executions between 2009 and 2021.</p>
 
-      <p>In recent years, the Rapid Action Battalion (RAB), an elite police unit controlled by deputized military
-        officers, has come under close scrutiny for carrying out alleged extrajudicial executions. Since its founding as
-        a crime-busting agency in 2004, extrajudicial killings in Bangladesh have almost been synonymous with the RAB,
-        as the agency engaged in deliberate lethal actions to eliminate its targets in the guise of “gunfights” or
-        “crossfire.” In 2021, the United States government imposed unprecedented economic and diplomatic sanctions
-        against the RAB and its current and former leadership. </p>
+      <figure class="illustrations">
+        <img src="/assets/police.png" alt="An illustration of Bangladesh Police members">
+        <figcaption>Non-RAB units within Bangladesh Police were collectively responsible for
+          most extrajudicial executions. ILLUSTRATION: SME/NETRA NEWS</figcaption>
+      </figure>
 
-      <p>However, the analysis by Netra News reveals that non-RAB units within Bangladesh Police were collectively
-        responsible for most extrajudicial executions between 2009, when the Awami League returned to power, and 2021,
-        the latest year to be fully documented. </p>
-
-      <p>Regular police forces singlehandedly carried out more than half, or 59%, of the 2594 killings recorded in this
-        period. In addition, policemen participated in joint operations with other forces, including RAB and the Border
-        Guard Bangladesh (BGB), resulting in the deaths of an additional 142 people.</p>
-
+      <p>Regular police units carried out more than half, or 59%, of the 2594 killings recorded in this period. In
+        addition, policemen participated in joint operations with other forces, including RAB and the Border Guard
+        Bangladesh (BGB), resulting in the deaths of an additional 142 people. In total, police members were implicated
+        in more than 1,600 deaths.</p>
       <p>Of the 2,095 killings that appear to be targeted extrajudicial executions, regular police units were
         singlehandedly responsible for 1,191 or 56%, and dozens of others in collaboration with other agencies or RAB.
       </p>
-
-      <p>However, the regular police have a number of units. Although Bangladesh’s centralized state means the police
-        force scattered across the country is under the central headquarters in the capital city, several units within
-        the force often act with some level of autonomy and influence. One example of that is the Detective Branch (DB),
-        whose members in Dhaka killed Jony. (The analysis could not attribute all incidents to specific units within the
-        police because of insufficient background information.)</p>
-
-      <p>One major exception is RAB, which is technically under the police but enjoys operational freedom and is
-        essentially outside the effective purview of the police headquarters. The RAB comprises members of the military
-        forces, who dominate it, and other security and law enforcement agencies. The RAB’s nominal head is a senior
-        police official, but the commanders of its operational sub-units are mid-ranking military officers. And when
-        considered as a unit of a greater force, no other unit surpassed the RAB in terms of killing: the unit alone
-        carried out more than 7,00 incidents that bear the signs of extrajudicial executions. In addition, the elite
-        unit led or participated in joint operations with other units or forces that killed about 75 people.</p>
-
-      <p>Another major contributor to the phenomenon is the Border Guard Bangladesh (BGB), which has been responsible
-        for maintaining the country’s border. But in recent years, the agency — led exclusively by officers deputized
-        from the military — has increasingly used lethal means to eliminate seemingly premeditated targets. Members of
-        the border forces killed 141 people in solo operations, 101 of whom appear to have been targeted beforehand,
-        besides partaking in joint operations that caused more than 70 other lethal casualties.</p>
-
-
+      <p>However, the regular police have a number of separate units. Although Bangladesh’s centralized state means the
+        police force scattered across the country is controlled by its central headquarters in Dhaka, several units
+        within the force often act with some level of autonomy and influence. One example of that is the Detective
+        Branch (DB), whose members in Dhaka killed Jony. However, there isn’t sufficient data to attribute all killings
+        to specific units within the police.</p>
+      <p>One major exception would be RAB, which is technically under the police but enjoys operational freedom and is
+        essentially outside the effective purview of the police headquarters. That means the killings by RAB were often
+        publicized by its separate press office, which made it easier for researchers to attribute the killings to the
+        unit.</p>
+      <p>The RAB comprises members of the military forces, who dominate it, and other security and law enforcement
+        agencies. The RAB’s nominal head is a senior police official, but the commanders of its operational sub-units
+        are mid-ranking military officers. And when considered as a unit of a greater force, no other police unit
+        surpassed the RAB in terms of killings: the unit alone carried out more than 7,00 incidents that bear the signs
+        of extrajudicial executions. In addition, the elite unit led or participated in joint operations with other
+        units or forces that killed about 75 people.</p>
+      <p>Another major contributor is the Border Guard Bangladesh (BGB). The BGB is responsible for maintaining the
+        country’s border. But in recent years, the agency — led exclusively by officers deputized from the military —
+        has increasingly used lethal means to eliminate seemingly premeditated targets. Members of the border forces
+        killed 141 people in solo operations, 101 of whom appear to have been targeted beforehand, besides partaking in
+        joint operations that caused more than 70 other lethal casualties.</p>
 
       <h2>Hikes in election seasons</h2>
 
@@ -303,15 +280,50 @@
         controversies. Opposition parties boycotted elections in 2014, leading the ruling party to win largely
         uncontested. The 2018 election, while participated by the opposition, saw widespread fraud: the ruling party won
         more than 96% of the parliamentary seats in a North Korea-esque brazen rigging.</p>
-
       <p>During and in the aftermath of both elections, targeted and indiscriminate killings saw a sharp rise, the
-        analysis shows. </p>
+        analysis shows.</p>
 
-      <p>In 2013, when the opposition began its protests over elections, security forces killed 270 people, four times
-        the number of those killed in the previous year. Both in the election year in 2014 and in the immediate
-        post-election year, in 2015, when the BNP and its allies attempted to revive election protests, Bangladesh saw a
-        high-level of lethal casualties by security forces: 172 and 186, respectively. </p>
 
+      <aside class="grids">
+        <div class="peopleyeartitle">The spike in 2013</div>
+        <div class="peopleyeardescription">
+          In 2013, when opposition parties waged a protest against the repeal of the caretaker government system, with
+          Jamaat-e-Islami supporters pursuing a desperate to undo the war crimes tribunal, the security forces responded
+          with lethal use of force, killing as many as <b style="background:#de2d26; padding:1px 4px">173</b> people
+          linked to the opposition parties. In contrast, only <b
+            style="background:black; color:gray; padding:1px 4px">SIX</b> people had died at the hands of security
+          forces in the four preceding years combined.
+
+        </div>
+        <div class="gridpeople">
+          <div class="gridrow">
+            <div class="leftmiddle year">2009-10</div>
+            <div class="leftmiddle year">2011-12</div>
+          </div>
+          <div class="gridrow">
+            <div class="leftmiddle people">ABCDE</div>
+            <div class="leftmiddle people">T</div>
+          </div>
+          <div class="year y2013">2013</div>
+          <div class="right people">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQ
+          </div>
+        </div>
+      </aside>
+
+
+      <p>In 2013, when the opposition began its protests over elections that would take place a year later, security
+        forces killed 270 people, four times the number of those killed in the previous year. Both in the election year
+        of 2014 and in the immediate post-election year of 2015, when the BNP and its allies attempted to revive
+        election protests, Bangladesh saw a high level of lethal casualties by security forces: 172 and 186,
+        respectively.</p>
+
+      <p>The trend continued until 2017: From 2013 to 2017, security agencies killed 192 people a year on average.
+        However, the executions again saw an even sharper increase in 2018, also an election year, when the government
+        launched the so-called war against drugs.</p>
+      <p>The year 2018 was also the deadliest recorded: as many as 465 people were killed by security agencies, an
+        increase of 242% compared to the previous 5-year average. The trend slowed down in the following two years,
+        which were still marked by high numbers of casualties: 391 and 223, respectively.</p>
 
       <aside class="chart1"><iframe title="Sharp hikes during elections" aria-label="Interactive line chart"
           id="datawrapper-chart-zb2eV" src="https://datawrapper.dwcdn.net/zb2eV/22/?dark=true" scrolling="no"
@@ -322,34 +334,31 @@
       </aside>
 
 
-      <p>The trend continued until 2017: From 2013 to 2017, security agencies killed 192 people a year on average.
-        However, the executions again saw a sharp increase in 2018, also an election year, when the government launched
-        the so-called war against drug. The year was deadliest recorded: as many as 465 people were killed by security
-        agencies, an increase of 242% compared to the previous 5-year average. The trend slowed down in the following
-        two years, which were still marked by high number of casualties: 391 and 223 respectively.</p>
-
-      <p>What’s also extraordinary about the 2018 period is that the fewer number of protest-related non-targeted
-        killings. In 2013, only 73 of the 270 people or about 27% of those killed in the hands of security forces appear
-        targeted or premeditaded. (The figures do not include those allegedly killed during the May 5th rally by
-        Hefazat-e-Islam due to ambigiguties surrounding the number and identities of the victims. Had they been
+      <p>What was also extraordinary about the 2018 period was the fewer number of protest-related non-targeted
+        killings. In 2013, only 73 of the 270 people, or about 27% of those killed at the hands of security forces,
+        appeared targeted or premeditated. (The 2013 figures do not include those allegedly killed during the May 5th
+        rally by Hefazat-e-Islam, due to ambiguities surrounding the number and identities of the victims. Had they been
         included, the share of the targeted killings would be even less.)</p>
 
-      <p>In contrast, 457 of 465 people or more than 98% of those killed by security forces in 2018 appear targeted,
+      <p>In contrast, 457 of 465 people, or more than 98% of those killed by security forces in 2018, appear targeted,
         meaning the victims had been apprehended before they were killed. A similar trend can be observed in 2019 and
         2020, too.</p>
 
+      <h2>Location-wise and ethnographic trend</h2>
 
-      <h2>Location-wise and ethnographic trend </h2>
-
-      <p>An year-by-year analysis of the locations where the killings took place also revealed startling findings. The
-        location data was refined to use only sub-district level variables.</p>
-
+      <p>A year-by-year analysis of the locations where the killings took place also revealed astonishing findings. As
+        Bangladesh doesn’t have a standardized address or location format, the analysis refined the location data to the
+        sub-district level.</p>
       <p>Until 2018, the killings appeared scattered around the entire country, barring some regional trends. In the
-        early years of the Awami League government, some localities in the western and southwestern Bangladesh, covering
-        Khulna division, saw the killings of those allegedly associated with armed leftist groups. </p>
+        early years of the Awami League government, some localities in western and southwestern Bangladesh, covering the
+        Khulna division, saw the killings of those allegedly associated with armed leftist groups.</p>
+
 
       <!-- start scrollytelling section -->
+
       <section id="scrolly">
+        <h3>Casualties by location. Scroll down or up to see changes in map.</h3>
+
         <figure>
           <div id="map-image">
             <div class="image-container active" style="background-image: url(./assets/maps/2013.jpeg)"></div>
@@ -359,31 +368,29 @@
 
         <div id="article">
           <div class="step" data-step="1">
-            <p>1 — In contrast to only 6 in previous three years, the 2013 saw as many as 173 victims of killings by
-              security forces who were linked to the political opposition. The share of them constituted a whooping 65%
-              of those killed in that year. Most of the political victims were killed in security forces’ actions during
-              protests. </p>
+            <p>2013 marked an escalation of deadly use of force by security agencies in Bangladesh</p>
           </div>
           <div class="step" data-step="2">
-            <p>2 — The 2014 period saw a steady rise of crime-related cases.</p>
+            <p>2014 — the election year — saw fewer deaths but was still marred by a high number of casualties. </p>
           </div>
           <div class="step" data-step="3">
-            <p>3 — So did the 2015 period.</p>
+            <p>2015 — when Jony was killed — was almost as deadly as 2014. </p>
           </div>
           <div class="step" data-step="4">
-            <p>4 — The 2016 also saw .... a</p>
+            <p>So was the year of 2016</p>
           </div>
           <div class="step" data-step="5">
-            <p>5 — In 2017 ---- </p>
+            <p>2017 saw a decline in killings but it was as if the calm before the storm.</p>
           </div>
           <div class="step" data-step="6">
-            <p>6 — The 2018 was an election year, and the year when the government launched its war on drugs.</p>
+            <p>With 465 deaths, the year of 2018 - when the gov launched a "war on drug" — was the deadliest ever
+              recorded.</p>
           </div>
           <div class="step" data-step="7">
-            <p>7 — But it was not until 2019 that Cox’s Bazar residents got affected disproportionately.</p>
+            <p>In 2019, the govt turned its focus to Teknaf, Cox’s Bazar. </p>
           </div>
           <div class="step" data-step="8">
-            <p>8 — The trend continued in 2020 but on a smaller scale.</p>
+            <p>In 2020, the war on drug subsided in the rest of the country but was still ongoing in Teknaf.</p>
           </div>
         </div>
       </section>
@@ -391,100 +398,96 @@
 
       <!-- end scrollytelling section -->
 
-      <p>In the eastern Bangladesh, the Chittagong Hill Tracts also witnessed the extrajudicial killings of indigenous
-        men, allegedly tied with regional political and armed organizations. Many of those killings implicate the army,
-        which has had a longstanding presence in the area. </p>
-
-      <p>However, in 2019, when the government announced its anti-drug campaign, everything changed in the southernmost
-        sub-district of Tekanf in Cox’s Bazar. 113 of the 391 people killed in that year lived in the tiny sub-district,
-        widely known as a drug entry point from neighboring Myanmar, whereas prior to 2019, the sub-district recorded
-        fewer than 30 police-related deaths from 2013. Other sub-districts in Cox’s Bazar such as Chokoria and
-        Maheshkhali were also disproportionate affected during that period.</p>
-
+      <p>In eastern Bangladesh, the Chittagong Hill Tracts also witnessed a steady number of extrajudicial killings of
+        indigenous men, allegedly tied with regional political and armed organizations. Many of those killings were
+        carried out by the army, which has had a longstanding presence in the area.</p>
+      <p>However, in 2019, a year after the government announced its anti-drug campaign, everything began to change in
+        the southernmost sub-district of Tekanf in Cox’s Bazar.</p>
+      <p>113 of the 391 people killed in Bangladesh that year lived in the tiny sub-district, widely known as a drug
+        entry point from neighboring Myanmar, whereas prior to 2019, the sub-district recorded fewer than 30
+        police-related deaths from 2013. Other sub-districts in Cox’s Bazar, such as Chokoria and Maheshkhali, were also
+        disproportionately affected during that period.</p>
       <p>Among those killed in 2019 are also 59 Rohingya refugees who lived in squalid refugee camps in Cox’s Bazar. In
         2020 and 2021, 56 other Rohingya refugees were killed, too. Prior to 2019, not a single Rohingya refugee was
         killed by security forces in Bangladesh.</p>
 
-      <h2>Methodologies and assumptions</h2>
+      <h2>Attribution to “crimes”</h2>
 
-      <p>The AHRC and Odhikar compiled the data in multiple spreadsheets over the years. Except for a few cases, the
-        data cited newspaper sources, which Netra News researchers corroborated and updated. Based on respective press
-        reports, researchers also updated other key details respective to the cases.</p>
-
-      <p>Information in the “connotation” and “identity” columns may not be factually accurate. Connotations are based
-        on what security forces said post-facto about the victims. They are meant to give the readers a sense of what
-        justifications the security forces use in carrying out the executions.</p>
-
-      <p>As Bangladesh does not have maintain ZIP codes, Netra News re-formatted village or union-level locations data
-        into sub-districts or districts. </p>
-
-      <p>Netra News did not — and could possibly not — independently investigate each and every case individually.
-        However, many of the cases mentioned in the dataset are well known to be extrajudicial executions and they bear
-        the traits of one.</p>
-
-      <p>In the case of conflicting statements, the analysis gave the statements from family members precedence. </p>
-
-      <p>Although Bangladesh authorities have consistently denied that its security forces routinely carry out
-        extrajudicial killings, its claims often fly in the face of reality, let alone meriting serious considerations.
+      <p>In an overwhelming majority of the cases, the respective security forces told journalists that the victims were
+        criminals or facing criminal charges. The connotation of “crime” was used in 1193 of the cases, while the
+        insinuation of “drugs” or “extremism” (both left-wing or Islamist) appeared in 638 and 192 cases,
+        respectively.</p>
+      <p>Experts have long argued that security forces use these negative connotations to justify their actions in the
+        eye of the public.</p>
+      <p>In several notable cases, including the infamous 7-murder case in Narayanganj in 2014, the motives of the
+        security forces were simply financial extortions. In others, they were found to be politically motivated. But
+        the sweeping classification of “crime” means that it’s almost impossible to learn why these individuals were
+        actually targeted. That’s in part because the press reports of the killings almost exclusively relied on the
+        security force’s narratives, which, more often than not, were contended by family members.</p>
+      <p>In 290 cases, there were clearer political implications. That was possible because the victims were known
+        members of opposition political parties or even the ruling party, or were killed in political protest rallies.
       </p>
 
-      <p>In early April, in response to a request for comment by Netra News and the German public broadcaster, Deutsche
-        Welle, Bangladesh’s Ministry of Home Affairs, which oversees law enforcement forces, said, “[o]n receipt of any
-        such allegation the Ministry duly investigate[s] each incident by an independent Magistrate. According to the
-        investigation reports, the allegation made appears not to be authentic.”</p>
+      <h2>Methodologies</h2>
 
-      <p>However, the magistrates are neither “independent” nor do they “investigate” the killings. According to
-        multiple rights investigators, the magistrates are junior executive bureaucrats or public servants under the
-        strict control of the government, and they often sanction the killings before they even take place.</p>
-
-      <p>Even the pieces of papers the magistrates sign are kept strictly confidential and intended to be used only if
-        legal implications arise in the future, multiple sources told Netra News.</p>
-
-      <p>In Jony’s case, his wife says, she was unable to obtain routine documentary evidence related to the killing for
-        years, including the medical postmortem report and the case documents related to the death of her husband. </p>
-
-      <p>In February this year, Jony’s father decided to file a complaint in a local court implicating a number of
-        police detectives in the killing, but the court immediately dismissed it. </p>
-
-      <p>Last year, the government cancelled the registrations of Odhikar, one of the rights organizations that helped
-        build the dataset used in this story.</p>
-
+      <p>The AHRC compiled the data in multiple spreadsheets over the years. Except for a few cases, the data cited
+        newspaper sources, some of which Netra News researchers corroborated and updated. Based on respective press
+        reports, researchers also updated other key details specific to the cases.</p>
+      <p>Information in the “connotation” and “identity” columns of the table is not meant to represent factual
+        accuracy. Connotations are based on what security forces said post-facto about the victims. They are meant to
+        give the audience a sense of what justifications the security forces use in carrying out executions.</p>
+      <p>As Bangladesh does not maintain ZIP codes or other standardized address formats, Netra News re-formatted
+        village or union-level location data into sub-districts or districts.</p>
+      <p>Netra News did not — and could possibly not — independently investigate each and every case individually.
+        However, many of the cases mentioned in the dataset, such as Jony’s, are well known to be extrajudicial
+        executions, and they bear the traits of one. In the case of conflicting statements, the analysis gave the
+        statements from family members precedence.</p>
+      <h2>What does the government say? </h2>
+      <p>Although Bangladesh authorities have consistently denied that its security forces routinely carry out
+        extrajudicial killings, its claims often fly in the face of reality, let alone meriting serious
+        considerations.</p>
+      <p>In early April, in response to a request for comment by Netra News and Deutsche Welle, Bangladesh’s Ministry of
+        Home Affairs, which oversees law enforcement forces, said, “[o]n receipt of any such allegation the Ministry
+        duly investigate[s] each incident by an independent Magistrate. According to the investigation reports, the
+        allegation made appears not to be authentic.”</p>
+      <p>However, the magistrates are neither “independent” nor do they “investigate” the killings. The magistrates are
+        junior executive bureaucrats or public servants under the strict control of the government, and, according to
+        multiple rights investigators, they often sign off the so-called investigative reports before the killings even
+        take place.</p>
+      <p>Even then, the Bangladesh government provides no evidence to back up its own claims of conducting independent
+        investigations into the allegations. The magistrate’s investigative reports or any other documents (such as
+        testimonies or interviews of involved officials) are not publicly available. In many cases, even routine details
+        are kept hidden from relatives or family members. In Jony’s case, his wife says, she was unable to obtain basic
+        documents related to the killing for years, including the medical postmortem report and the first information
+        report related to the death of her husband.</p>
+      <p>“For years, I could not even prove that Jony actually died,” she said.</p>
 
 
 
       <div class="credits-wrapper">
         <div class="credits-content">
-          <p><span class="credit-section-header">Reporting and Data Analysis</span> <a
-              href="https://netra.news/authors/nazmul-ahasan/">Nazmul Ahasan</a>, Data visualization by <a
-              href="https://twitter.com/paldhous">Peter Aldhouse</a> and <a href="https://bscannestra.github.io/">Sakura
-              Cannestra</a>, Nazmul Ahasan and Kamal Hosein.</p>
-          <p>This investigation is the result of a collaboration between Netra News and the <a
+          <p>Reporting, Data Analysis and Web Development by <a href="https://netra.news/authors/nazmul-ahasan/">Nazmul
+              Ahasan</a>. Web development has been supervised by <a href="https://soooh.net/">Soo Oh</a>, a lecturer at
+            UC Berkeley Graduate School of Journalism and Data Editor at Reveal from the Center for Investigative
+            Reporting, and <a href="https://www.linkedin.com/in/yolandamartinez2/">Yoli Martinez</a>, also a lecturer at
+            UC Berkeley and Software Engineer at The Washington Post.</p>
+          <p>Data Visualization by Nazmul Ahasan, <a href="https://twitter.com/paldhous">Peter Aldhouse</a> and Kamal
+            Hosein.</p>
+          <p>This investigation is the result of a collaboration between <em>Netra News</em> and the <a
               href="http://www.humanrights.asia/" target="_blank" rel="noreferrer">Asian Human Rights Commission</a> in
-            Hong Kong. Peter Aldhouse, a journalism professor at the University of California, Berkeley, provided
+            Hong Kong. Peter Aldhouse, also journalism professor at the University of California, Berkeley, provided
             guidance for the visual maps and data analysis. Sakura Cannestra, a graduate student at UC Berkeley Graduate
-            School of Journalism, provided inputs for web development.</p>
-          <div class="g-share">
-            <div class="o-share o-share--inverse" data-o-component="o-share">
-              <ul>
-                <li class="o-share__action"><a class="o-share__icon o-share__icon--twitter"
-                    href="https://twitter.com/intent/tweet?url=######" rel="noopener"><span class="o-share__text">Share
-                      on Twitter. Opens in a new window.</span></a></li>
-                <li class="o-share__action"><a class="o-share__icon o-share__icon--facebook"
-                    href="https://www.facebook.com/sharer.php?u=###" rel="noopener"><span class="o-share__text">Share on
-                      Facebook. Opens in a new window.</span></a></li>
-                <li class="o-share__action"><a class="o-share__icon o-share__icon--linkedin"
-                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=###/" rel="noopener"><span
-                      class="o-share__text">Share on LinkedIn. Opens in a new window.</span></a></li>
-              </ul>
-            </div>
-          </div>
+            School of Journalism, provided inputs for web development.
+          </p>
+          <p>Illustrations by SME for Netra News. Cover video by Deutsche Welle.</p>
+
         </div>
       </div>
 
 
     </article>
 
-    <footer class="pageFooter ">
+    <footer class="pageFooter">
       <div class="lock">
         <div class="pageFooter--wrapper">
           <div class="pageFooter--left">
@@ -494,8 +497,6 @@
             </a>
           </div>
           <div class="pageFooter--right">
-
-
             <div class="pageFooter--right-links">
               <div class="hdnce-e hdnce-item-87230">
                 <ul class="wrapper">
@@ -510,7 +511,6 @@
                           Policy</a></li>
                       <li><a href="https://netra.news/contact/" target="_blank" rel="noopener noreferrer">Contact</a>
                       </li>
-
                     </ul>
                   </li>
                   <li>
@@ -539,112 +539,114 @@
                           rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                   </li>
-                  <li>
+                </ul>
               </div>
             </div>
-
           </div>
+        </div>
+      </div>
     </footer>
 
   </main>
 
 </body>
 
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="./scripts/scrollama.min.js"></script>
+
 <script>
 
 
-// using d3 for convenience
-var main = d3.select("main");
-var scrolly = main.select("#scrolly");
-var figure = scrolly.select("figure");
-var article = scrolly.select("#article");
-var step = article.selectAll(".step");
+  // using d3 for convenience
+  var main = d3.select("main");
+  var scrolly = main.select("#scrolly");
+  var figure = scrolly.select("figure");
+  var article = scrolly.select("#article");
+  var step = article.selectAll(".step");
 
-// initialize the scrollama
-var scroller = scrollama();
+  // initialize the scrollama
+  var scroller = scrollama();
 
-// generic window resize listener event
-function handleResize() {
-  // 1. update height of step elements
-  var stepH = Math.floor(window.innerHeight * 1);
-  step.style("height", stepH + "px");
+  // generic window resize listener event
+  function handleResize() {
+    // 1. update height of step elements
+    var stepH = Math.floor(window.innerHeight * 1);
+    step.style("height", stepH + "px");
 
-  var figureHeight = window.innerHeight / 1;
-  var figureMarginTop = Math.floor(window.innerHeight / window.innerWidth);
-  var figureWidth = window.innerWidth;
-  
+    var figureHeight = window.innerHeight / 1;
+    var figureMarginTop = Math.floor(window.innerHeight / window.innerWidth);
+    var figureWidth = window.innerWidth;
 
-  
-  if (window.innerHeight > window.innerWidth) {
-    figureHeight = window.innerHeight / (window.innerHeight / window.innerWidth);
+
+
+    if (window.innerHeight > window.innerWidth) {
+      figureHeight = window.innerHeight / 3;
+    }
+
+
+
+    figure
+      .style("height", figureHeight + "px")
+      .style("top", "0" + "px");
+
+
+
+    // 3. tell scrollama to update new element dimensions
+    scroller.resize();
   }
 
- 
+  // scrollama event handlers
+  function handleStepEnter(response) {
 
-  figure
-    .style("height", figureHeight + "px")
-    .style("top", figureMarginTop + "2" + "%");
-    
-    
-
-  // 3. tell scrollama to update new element dimensions
-  scroller.resize();
-}
-
-// scrollama event handlers
-function handleStepEnter(response) {
-  
-  // response = { element, direction, index }
-
-  
-
-  // add color to current step only
-  step.classed("is-active", function (d, i) {
-    return i === response.index;
-  });
-
-  // update graphic based on step
-
-  const mapImage = document.getElementById('map-image');
-const nextImageIndex = response.index + 2013;
-const nextImageSrc = `./assets/maps/${nextImageIndex}.jpeg`;
-const currentImage = mapImage.querySelector('.image-container.active');
-const nextImage = mapImage.querySelector('.image-container.inactive');
-
-nextImage.style.backgroundImage = `url(${nextImageSrc})`;
-nextImage.classList.add('active');
-nextImage.classList.remove('inactive');
-currentImage.classList.add('inactive');
-currentImage.classList.remove('active');
-}
+    // response = { element, direction, index }
 
 
-function init() {
 
-  // 1. force a resize on load to ensure proper dimensions are sent to scrollama
-  handleResize();
+    // add color to current step only
+    step.classed("is-active", function (d, i) {
+      return i === response.index;
+    });
 
-  // 2. setup the scroller passing options
-  // 		this will also initialize trigger observations
-  // 3. bind scrollama event handlers (this can be chained like below)
-  scroller
-    .setup({
-      step: "#scrolly #article .step",
-      offset: 0.50,
-      debug: false
-    })
-    .onStepEnter(handleStepEnter);
-}
+    // update graphic based on step
 
-// kick things off
-init();
+    const mapImage = document.getElementById('map-image');
+    const nextImageIndex = response.index + 2013;
+    const nextImageSrc = `./assets/maps/${nextImageIndex}.jpeg`;
+    const currentImage = mapImage.querySelector('.image-container.active');
+    const nextImage = mapImage.querySelector('.image-container.inactive');
 
-  </script>
+    nextImage.style.backgroundImage = `url(${nextImageSrc})`;
+    nextImage.classList.add('active');
+    nextImage.classList.remove('inactive');
+    currentImage.classList.add('inactive');
+    currentImage.classList.remove('active');
+  }
 
 
-<script defer src="./scripts/jquery-3.5.1.min.js"></script>
-<script defer src="./scripts/jquery.dataTables.min.js"></script>
-<script defer src="./scripts/main.js"></script>
+  function init() {
+
+    // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+    handleResize();
+
+    // 2. setup the scroller passing options
+    // 		this will also initialize trigger observations
+    // 3. bind scrollama event handlers (this can be chained like below)
+    scroller
+      .setup({
+        step: "#scrolly #article .step",
+        offset: 0.50,
+        debug: false
+      })
+      .onStepEnter(handleStepEnter);
+  }
+
+  // kick things off
+  init();
+
+</script>
+
+
 
 
 </html>
